@@ -89,9 +89,6 @@ endif
 
 ## Screenshots
 
-### Monokai Pro (Default)
-The default Monokai Pro theme with vibrant colors on a dark gray background.
-
 ![Monokai Pro Default](screenshots/monokai-pro.png)
 
 ### Monokai Pro Classic
