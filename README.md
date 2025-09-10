@@ -2,14 +2,13 @@
 
 Beautiful Monokai Pro theme variants for Vim, ported from the excellent [monokai-pro.nvim](https://github.com/gthelding/monokai-pro.nvim) by gthelding.
 
-![Monokai Pro](https://user-images.githubusercontent.com/1532071/178804297-1b2e1099-f855-4bc5-b84a-6c4d5d2f32f5.png)
 
 ## Features
 
 This plugin includes all 7 Monokai Pro variants:
 
 - **monokai-pro** - Default Monokai Pro
-- **monokai-pro-classic** - Classic Monokai colors  
+- **monokai-pro-classic** - Classic Monokai colors
 - **monokai-pro-machine** - Dark blue variant
 - **monokai-pro-octagon** - Dark purple variant
 - **monokai-pro-ristretto** - Dark brown variant
@@ -22,6 +21,12 @@ This plugin includes all 7 Monokai Pro variants:
 
 ```vim
 Plug 'vinitkumar/monokai-pro-vim'
+```
+
+### Using [packer-nvim](https://github.com/wbthomason/packer.nvim)
+
+```
+use 'vinitkumar/monokai-pro-vim'
 ```
 
 ### Using [Vundle](https://github.com/VundleVim/Vundle.vim)
@@ -99,7 +104,7 @@ A blue-tinted variant with a cooler color palette.
 
 ![Monokai Pro Machine](screenshots/monokai-pro-machine.png)
 
-### Monokai Pro Octagon  
+### Monokai Pro Octagon
 A purple-tinted variant with muted colors.
 
 ![Monokai Pro Octagon](screenshots/monokai-pro-octagon.png)
