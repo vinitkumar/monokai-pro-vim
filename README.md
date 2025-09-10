@@ -87,23 +87,37 @@ endif
 ### Monokai Pro (Default)
 The default Monokai Pro theme with vibrant colors on a dark gray background.
 
+![Monokai Pro Default](screenshots/monokai-pro.png)
+
 ### Monokai Pro Classic
 Classic Monokai colors that you know and love.
+
+![Monokai Pro Classic](screenshots/monokai-pro-classic.png)
 
 ### Monokai Pro Machine
 A blue-tinted variant with a cooler color palette.
 
+![Monokai Pro Machine](screenshots/monokai-pro-machine.png)
+
 ### Monokai Pro Octagon  
 A purple-tinted variant with muted colors.
+
+![Monokai Pro Octagon](screenshots/monokai-pro-octagon.png)
 
 ### Monokai Pro Ristretto
 A warm, brown-tinted variant.
 
+![Monokai Pro Ristretto](screenshots/monokai-pro-ristretto.png)
+
 ### Monokai Pro Spectrum
 True black background variant for OLED displays.
 
+![Monokai Pro Spectrum](screenshots/monokai-pro-spectrum.png)
+
 ### Monokai Pro Light
 A light variant for daytime coding.
+
+![Monokai Pro Light](screenshots/monokai-pro-light.png)
 
 ## Credits
 
