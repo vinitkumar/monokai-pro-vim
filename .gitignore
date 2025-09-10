@@ -1,0 +1,29 @@
+# Vim swap files
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Backup files
+*.bak
+
+# Tags
+tags
+.tags
+
+# Session files
+Session.vim
+
+# netrw history
+.netrwhist
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Editor directories
+.vscode/
+.idea/
