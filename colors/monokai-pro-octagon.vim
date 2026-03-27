@@ -14,18 +14,24 @@ let g:colors_name = "monokai-pro-octagon"
 
 " General Colors
 hi Normal guifg=#eaf2f1 guibg=#282a3a gui=NONE
-hi LineNr guifg=#535763 guibg=NONE gui=NONE
+hi LineNr guifg=#696d77 guibg=NONE gui=NONE
 hi CursorLine guibg=#3a3d4b gui=NONE
 hi CursorLineNr guifg=#b2b9bd guibg=#282a3a gui=bold
 hi CursorColumn guibg=#3a3d4b gui=NONE
 hi ColorColumn guibg=#3a3d4b gui=NONE
-hi SignColumn guifg=#535763 guibg=NONE gui=NONE
-hi VertSplit guifg=#161821 guibg=NONE gui=NONE
+hi SignColumn guifg=#696d77 guibg=NONE gui=NONE
+hi VertSplit guifg=#535763 guibg=NONE gui=NONE
 hi StatusLine guifg=#eaf2f1 guibg=#3a3d4b gui=NONE
 hi StatusLineNC guifg=#696d77 guibg=#3a3d4b gui=NONE
 hi TabLine guifg=#696d77 guibg=#3a3d4b gui=NONE
 hi TabLineFill guibg=#3a3d4b gui=NONE
 hi TabLineSel guifg=#eaf2f1 guibg=#282a3a gui=NONE
+hi WinSeparator guifg=#535763 guibg=NONE gui=NONE
+hi NormalFloat guifg=#eaf2f1 guibg=#3a3d4b gui=NONE
+hi FloatBorder guifg=#696d77 guibg=#3a3d4b gui=NONE
+hi FloatTitle guifg=#ff657a guibg=#3a3d4b gui=bold
+hi MatchParen guifg=#eaf2f1 guibg=#3a3d4b gui=bold
+hi QuickFixLine guibg=#3a3d4b gui=bold
 
 " Cursor
 hi Cursor guifg=#282a3a guibg=#eaf2f1 gui=NONE
@@ -39,6 +45,7 @@ hi VisualNOS guibg=#3a3d4b gui=NONE
 " Search
 hi Search guifg=#282a3a guibg=#ffd76d gui=NONE
 hi IncSearch guifg=#282a3a guibg=#ff9b5e gui=NONE
+hi CurSearch guifg=#282a3a guibg=#ff9b5e gui=bold
 
 " Folding
 hi Folded guifg=#696d77 guibg=#3a3d4b gui=NONE
@@ -49,6 +56,25 @@ hi ErrorMsg guifg=#ff657a guibg=NONE gui=NONE
 hi WarningMsg guifg=#ff9b5e guibg=NONE gui=NONE
 hi MoreMsg guifg=#bad761 guibg=NONE gui=NONE
 hi Question guifg=#9cd1bb guibg=NONE gui=NONE
+hi DiagnosticError guifg=#ff657a guibg=NONE gui=NONE
+hi DiagnosticWarn guifg=#ff9b5e guibg=NONE gui=NONE
+hi DiagnosticInfo guifg=#9cd1bb guibg=NONE gui=NONE
+hi DiagnosticHint guifg=#c39ac9 guibg=NONE gui=NONE
+hi DiagnosticSignError guifg=#ff657a guibg=NONE gui=NONE
+hi DiagnosticSignWarn guifg=#ff9b5e guibg=NONE gui=NONE
+hi DiagnosticSignInfo guifg=#9cd1bb guibg=NONE gui=NONE
+hi DiagnosticSignHint guifg=#c39ac9 guibg=NONE gui=NONE
+hi DiagnosticFloatingError guifg=#ff657a guibg=#3a3d4b gui=NONE
+hi DiagnosticFloatingWarn guifg=#ff9b5e guibg=#3a3d4b gui=NONE
+hi DiagnosticFloatingInfo guifg=#9cd1bb guibg=#3a3d4b gui=NONE
+hi DiagnosticFloatingHint guifg=#c39ac9 guibg=#3a3d4b gui=NONE
+hi DiagnosticUnderlineError gui=undercurl guisp=#ff657a
+hi DiagnosticUnderlineWarn gui=undercurl guisp=#ff9b5e
+hi DiagnosticUnderlineInfo gui=undercurl guisp=#9cd1bb
+hi DiagnosticUnderlineHint gui=undercurl guisp=#c39ac9
+hi LspReferenceText guibg=#3a3d4b gui=NONE
+hi LspReferenceRead guibg=#3a3d4b gui=NONE
+hi LspReferenceWrite guibg=#3a3d4b gui=NONE
 
 " Popup Menu
 hi Pmenu guifg=#eaf2f1 guibg=#3a3d4b gui=NONE
@@ -69,7 +95,7 @@ hi SpellLocal guifg=#ff9b5e gui=undercurl guisp=#ff9b5e
 hi SpellRare guifg=#c39ac9 gui=undercurl guisp=#c39ac9
 
 " Syntax Highlighting
-hi Comment guifg=#696d77 gui=italic
+hi Comment guifg=#696d77 gui=NONE
 hi Constant guifg=#c39ac9 gui=NONE
 hi String guifg=#ffd76d gui=NONE
 hi Character guifg=#c39ac9 gui=NONE
@@ -84,7 +110,7 @@ hi Statement guifg=#ff657a gui=NONE
 hi Conditional guifg=#ff657a gui=NONE
 hi Repeat guifg=#ff657a gui=NONE
 hi Label guifg=#ff657a gui=NONE
-hi Operator guifg=#ff657a gui=NONE
+hi Operator guifg=#eaf2f1 gui=NONE
 hi Keyword guifg=#ff657a gui=NONE
 hi Exception guifg=#ff657a gui=NONE
 
@@ -94,10 +120,10 @@ hi Define guifg=#ff657a gui=NONE
 hi Macro guifg=#ff657a gui=NONE
 hi PreCondit guifg=#ff657a gui=NONE
 
-hi Type guifg=#eaf2f1 gui=NONE
-hi StorageClass guifg=#ff657a gui=italic
+hi Type guifg=#9cd1bb gui=NONE
+hi StorageClass guifg=#ff657a gui=NONE
 hi Structure guifg=#9cd1bb gui=NONE
-hi Typedef guifg=#ff657a gui=NONE
+hi Typedef guifg=#9cd1bb gui=NONE
 
 hi Special guifg=#9cd1bb gui=NONE
 hi SpecialChar guifg=#9cd1bb gui=NONE
