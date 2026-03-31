@@ -232,6 +232,25 @@ if has('nvim')
   let g:terminal_color_13 = '#a8a9eb'
   let g:terminal_color_14 = '#85dacc'
   let g:terminal_color_15 = '#e6d9db'
+elseif has('terminal')
+  let g:terminal_ansi_colors = [
+    \ '#2c2525',
+    \ '#fd6883',
+    \ '#adda78',
+    \ '#f9cc6c',
+    \ '#85dacc',
+    \ '#a8a9eb',
+    \ '#85dacc',
+    \ '#e6d9db',
+    \ '#72696a',
+    \ '#fd6883',
+    \ '#adda78',
+    \ '#f9cc6c',
+    \ '#85dacc',
+    \ '#a8a9eb',
+    \ '#85dacc',
+    \ '#e6d9db'
+    \ ]
 endif
 
 set background=dark

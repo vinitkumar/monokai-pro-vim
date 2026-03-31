@@ -250,6 +250,25 @@ if has('nvim')
   let g:terminal_color_13 = '#ab9df2'
   let g:terminal_color_14 = '#78dce8'
   let g:terminal_color_15 = '#fcfcfa'
+elseif has('terminal')
+  let g:terminal_ansi_colors = [
+    \ '#2d2a2e',
+    \ '#ff6188',
+    \ '#a9dc76',
+    \ '#ffd866',
+    \ '#78dce8',
+    \ '#ab9df2',
+    \ '#78dce8',
+    \ '#fcfcfa',
+    \ '#727072',
+    \ '#ff6188',
+    \ '#a9dc76',
+    \ '#ffd866',
+    \ '#78dce8',
+    \ '#ab9df2',
+    \ '#78dce8',
+    \ '#fcfcfa'
+    \ ]
 endif
 
 " Must be at the end, because of ctermbg=234 bug.
